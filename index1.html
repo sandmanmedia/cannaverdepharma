@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+
+		<title></title>
+		<meta name="description" content="">
+
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<script>
+			function myFunction() {
+			    var x = document.getElementById("myTopnav");
+			    var y = document.getElementById("header-main");
+			    if (x.className === "topnav") {
+			        x.className += " responsive";
+			    } else {
+			        x.className = "topnav";
+			    }
+			    if (y.className === "header-main") {
+			        y.className += " responsive";
+			    } else {
+			        y.className = "header-main";
+			    }
+			}
+		</script>
+
+
+	</head>
+
+	<body id="home">
+
+		<header>
+			<div id="header-main" class="header-main">
+				<div class="content clearfix">
+					<h1><img src="images/logo.png" alt="transportation&logistics systems" width="978" height="193"></h1>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="main-img capital">
+				<p>an emerging global <br>cannabis company</p>
+			</div>
+			<p class="coming-soon capital">
+				website<br>coming soon
+			</p>
+			<p class="corporate">
+				<img src="images/company_icon.png" alt="" width="43" height="50">Corporate Presentation
+			</p>
+			<div class="subscribe">
+				<div class="subscribe-container">
+					<h2>Subscribe</h2>
+					<p>for corporate updates and new releases!</p>
+					<form action="">
+						<lable>Name</lable>
+						<input id="name" type="text" name="name">
+						<lable>Email</lable>
+						<input id="email" type="text" name="email">
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+
+
+			</div>
+		</main>
+	</body>
+</html>
